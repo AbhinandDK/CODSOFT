@@ -36,16 +36,7 @@
         border-radius: 5px;
         }
 
-        .display2 {
-        grid-column: 1 / -1;
-        text-align: left;
-        padding: 5px;
-        font-size: 15px;
-        background-color: rgb(150, 127, 255);
-        border: 1px solid black;
-        border-radius: 5px;
-        }
-
+        
         .btn {
         padding: 10px;
         font-size: 20px;
@@ -58,17 +49,14 @@
         }
 
         .btn:hover {
-        background-color: #ddd;
+        background-color: #5a5050;
         }
 
-        .about {
-        text-align: center;
-        }
     </style>
   </head>
   <body>
     <div class="calculator">
-      <div class="boxer" id="boxer">Calculator</div>
+      <div id="name">Calculator</div>
       <div class="display" id="display">0</div>
       <button class="btn" id="clear">C</button>
       <button class="btn" id="backspace">←</button>
@@ -89,7 +77,6 @@
       <button class="btn" id="0">0</button>
       <button class="btn" id="equals">=</button>
 
-      <div class="display2" id="display2">
       </div>
     </div>
     <script>
